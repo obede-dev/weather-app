@@ -18,10 +18,7 @@ export default {
 </script>
 
 <style scoped>
-.loading {
-  text-align: center;
-  padding: 40px;
-}
+.loading { text-align: center; padding: 40px; }
 .spinner {
   width: 50px;
   height: 50px;
@@ -31,7 +28,6 @@ export default {
   margin: 0 auto 15px;
   animation: spin 1s linear infinite;
 }
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
+p { color: #666; }
 </style>
